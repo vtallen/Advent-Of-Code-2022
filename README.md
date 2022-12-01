@@ -1,4 +1,5 @@
-# adventofcode_2022
+#Advent Of Code 2022 Python Solutions
+
 Here are my solutions for the Advent of Code 2022 using Python
 
 Each directory has that day's puzzle as well as the solution I created.
