@@ -13,6 +13,18 @@ rules = {
     "X": 1,
     "Y": 2,
     "Z": 3,
+
+    "A A": "tie",
+    "A B": "player",
+    "A C": "opponent",
+
+    "B A": "opponent",
+    "B B": "tie",
+    "B C": "player",
+
+    "C A": "player",
+    "C B": "opponent",
+    "C C": "tie",
 }
 
 #Based on the line read from the strategy_guide.txt, we get the correct choice
