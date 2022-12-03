@@ -13,18 +13,6 @@ rules = {
     "X": 1,
     "Y": 2,
     "Z": 3,
-
-    "A A": "tie",
-    "A B": "player",
-    "A C": "opponent",
-
-    "B A": "opponent",
-    "B B": "tie",
-    "B C": "player",
-
-    "C A": "player",
-    "C B": "opponent",
-    "C C": "tie",
 }
 
 #Based on the line read from the strategy_guide.txt, we get the correct choice
@@ -41,19 +29,6 @@ correct_choice = {
     "C Y": "C",
     "C Z": "A",
 }
-
-#Allows us to get the equivilent choice betweeen the opponent and player
-'''
-choice_map = {
-    "A": "X",
-    "B": "Y",
-    "C": "Z",
-
-    "X": "A",
-    "Y": "B",
-    "Z": "C",
-}
-'''
 
 player_score = 0
 opponent_score = 0
